@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        {{ content }}
+
+        {% if page.comments or page.likebutton and site.facebook.appid %}
+        {% include facebook-comment-init.html %}
+        <p><div class="fb-like" data-layout="standard" data-href="{{ site.url }}{{ page.url }}" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+            {% if page.comments %}
+              <br>Comments are welcome:</p>
+              <!-- data-href="{{ site.url }}{{ page.url }}" -->
+              <div class="fb-comments" data-width="714" data-numposts="5"></div>
+            {% endif %}
+        {% endif %}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
