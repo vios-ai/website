@@ -23,4 +23,4 @@ This is built using [Jekyll](https://jekyllrb.com/) and the
 [minima](https://github.com/jekyll/minima) theme.
 
 The modifications to header/footer/addition of facebook comments, etc...
-are all on {% include icon-github.html username="vios-ai" %} / [vios-ai.github.io](https://github.com/vios-ai/vios-ai.github.io/)
+are all on {% include icon-github.html username="vios-ai" %} / [website](https://github.com/vios-ai/website/)
