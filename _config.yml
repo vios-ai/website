@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
  <a href="https://vios.ai/">vios.ai</a> - welcome to vios.ai
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vios.ai/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: vios.ai
+twitter_username: vios_ai
 github_username:  vios-ai
 email: info@vios.ai
 #google_analytics: UA-103018328-1
