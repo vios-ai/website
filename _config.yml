@@ -22,9 +22,9 @@ url: "http://vios.ai/" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: vios_ai
 github_username:  vios-ai
 email: info@vios.ai
-#google_analytics: UA-103018328-1
-#facebook:
-#  appid: 337741350005511
+google_analytics: UA-111583535-1
+facebook:
+  appid: 158102958143459
 
 # Build settings
 markdown: kramdown
